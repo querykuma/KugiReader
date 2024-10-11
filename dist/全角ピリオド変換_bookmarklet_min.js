@@ -1,0 +1,1 @@
+javascript:/* v1.0.0 */(()=>{let e;const t=document.createNodeIterator(document.body,NodeFilter.SHOW_TEXT);for(;e=t.nextNode();)e.textContent.match(/[．，]/u)&&(o=e,r=e.textContent.replaceAll(/[．，]/gu,(e=>"．"===e?"。":"、")),Array.isArray(r)||r instanceof NodeList?o.after(...r):o.after(r),o.remove());var o,r})();

@@ -1,0 +1,9 @@
+{
+  "name": "kugireader",
+  "version": "1.0.0",
+  "description": "区切り文字（句読点と括弧）を処理して記事を読みやすくするブックマークレットです。",
+  "main": "./src/kugi_reader.js",
+  "keywords": [],
+  "author": "Query Kuma",
+  "license": "MIT"
+}
